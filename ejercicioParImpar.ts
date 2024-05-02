@@ -4,7 +4,7 @@ let numeroIngresado:number=readlineSync.questionInt("Ingresar el numero para ver
 
 
 if (numeroIngresado === 0) {
-    console.log( "El número es 0 (cero)");
+    console.log( "El número ingresado es 0 (cero)");
 } 
 else if (numeroIngresado % 2 === 0) {
     console.log( "El número es par");
