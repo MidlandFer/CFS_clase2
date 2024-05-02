@@ -1,6 +1,6 @@
 import * as readlineSync from "readline-sync";
 
-let numeroIngresado:number=readlineSync.questionInt("Ingresar el numero para verificar: ");
+let numeroIngresado:number=readlineSync.questionInt("Ingresar el numero para verificar si es Par o Impar: ");
 
 
 if (numeroIngresado === 0) {
