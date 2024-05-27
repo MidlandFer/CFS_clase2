@@ -7,4 +7,4 @@ while (llegadaColectivo=="N") {
 console.log("Esperando el colectivo");
 llegadaColectivo = rls.question("Llegó el colectivo? (S/N): ");
 }
-console.log("Llegó el colectivo");
+console.log("Llegó el colectivo?");
