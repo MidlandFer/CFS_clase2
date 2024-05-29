@@ -1,5 +1,6 @@
 import * as readlineSync from "readline-sync";
 
+//declaro las funciones para solicitar ingreso por teclado al usuario
 let numero1:number = readlineSync.questionInt("Ingrese el primer numero:  ");
 let numero2:number = readlineSync.questionInt("Ingrese el segundo numero:  ");
 let opcionMenu:number = readlineSync.questionInt("Ingrese el numero 1 para sumar, 2 para restar, o presine cualquier tecla para salir ");
@@ -10,6 +11,7 @@ dibujarGuiones (50);
 console.log("El resultado es:  ", resultado);
 dibujarGuiones(50);
 
+//funcion para dibujar guiones
 function dibujarGuiones (cantidadGuiones:number){
     let i:number;
     let linea:string = "";
@@ -18,7 +20,7 @@ function dibujarGuiones (cantidadGuiones:number){
     }
     console.log(linea)
 }
-
+// Función para calcular el resultado
 function calcularResultado (numero1:number, numero2:number, opcionMenu:number):number{
     let resultado:number=0;
     if(opcionMenu==1){

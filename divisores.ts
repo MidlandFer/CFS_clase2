@@ -1,7 +1,7 @@
-import * as readlineSync from 'readline-sync';
-
-let num1: number = readlineSync.questionInt('Ingresar el numero: ');
-
+import * as readlineSync from "readline-sync";
+//Decalaro la variable para solicitar que se ingrese el número
+let num1: number = readlineSync.questionInt("Ingresar el numero: ");
+//Función que calcula los divisores
 function divisores(num1: number): number {
     let cantidadDiv = 0;
     for (let cont = 1; cont <= num1; cont++) {
@@ -11,5 +11,5 @@ function divisores(num1: number): number {
     }
     return cantidadDiv;
 }
-
-console.log('La cantidad de divisores es: ' + divisores(num1));
+//Imprimo la cantidad de divisores
+console.log("La cantidad de divisores es: " + divisores(num1));
