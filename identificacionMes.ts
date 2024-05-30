@@ -20,7 +20,7 @@ switch (nroMes) {
     default: console.log("ud no ha escrito un numero de mes valido");
 }
 */
-
+/*
 let numeroDelMes:string[]= new Array(12);
 numeroDelMes[0]="Enero";
 numeroDelMes[1]="Febrero";
@@ -34,9 +34,15 @@ numeroDelMes[8]="Septiembre"
 numeroDelMes[9]="Octubre";
 numeroDelMes[10]="Noviembre";
 numeroDelMes[11]="Diciembre";
+*/
 
-let numeroDeMes:number= readlineSync.questionInt("Indicar que numero de mes elige:  ");
-
-let indice:number= numeroDeMes -1;
-console.log("El mes es ", numeroDelMes[indice]);
-
+let nombreDelMes:string[]=[ "Enero", "Febrero", "Marzo", "Abril",
+    "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+  ];
+  
+  let numeroDelMes:number=readlineSync.questionInt("Indicar que numero de mes elige:  ");
+  
+  
+    let indice:number=numeroDelMes - 1;
+    console.log("El mes es:  ", nombreDelMes[indice]);
+  
