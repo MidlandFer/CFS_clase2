@@ -5,6 +5,8 @@ let nro : number, indice : number;
 
 for (indice = 0; indice < 5; indice++) {
 nro = rls.questionInt(`Indique el numero que desea incorporar en la posicion ${indice}: `);
+//tambien se puede realizar de la siguiente forma:
+//nro = rls.questionInt(`Indique el numero que desea incorporar en la posicion` +indice+`:`);
 nroDeseadoArreglo[indice] = nro;
 }
 
