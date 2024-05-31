@@ -2,7 +2,7 @@ import * as readlineSync from "readline-sync";
 //se crean los arreglos una para number y otro para string
 let arregloNombres : string[] = new Array (2);
 let arregloNumeros : number[] = new Array (3);
-// se crea la variable indice para recorrer el arreglo con for, agregando el ingreso por teclado de string
+// se crea la variable vacia indice para recorrer el arreglo con for, agregando el ingreso por teclado del string
 let indice : number;
 for (indice = 0; indice < 2; indice++) {
 arregloNombres[indice] = readlineSync.question(`Ingrese el nombre de la posicion ${indice}: `);
