@@ -6,7 +6,8 @@ cantidad = readline.questionInt("Ingrese la cantidad de números:");
 let indice : number;
 let v : number[] = new Array(cantidad);
 for ( indice=0; indice < cantidad; indice++) {
-v[indice]= readline.questionInt("Ingrese v[", indice, "]");
+v[indice]= readline.questionInt("Ingrese v[" + indice +"]:");
+//v[indice] = readline.questionInt("Ingrese v[" + indice + "]:");
 }
 //Cuento los valores >0, <0 e =0
 let numNeg : number = 0;
