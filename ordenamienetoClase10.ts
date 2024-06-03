@@ -1,4 +1,4 @@
-import * as rls from "readline-sync";
+import * as readlineSync from "readline-sync";
 
 //Funcion para crear un numero ramdom entre 0 y numAzar
 function Azar(numAzar: number): number {
