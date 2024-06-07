@@ -1,0 +1,1 @@
+ ${nombres[i]}  ${nombres[i]}  ${nombres[i]}  ${nombres[i]} 
